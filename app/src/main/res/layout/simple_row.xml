@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/simple_row">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/TITLE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TIME_STAMP"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/TITLE"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/TIME_STAMP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DESCRIPTON"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:hint="@string/DESCRIPTION"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/DESCRIPTON"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="4dp"
+        android:hint="@string/TIME_STAMP"
+        android:textAlignment="center" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Meow</string>
+
+
+    <!-- Content Information Loader template -->
+    <string name="TITLE">TITLE</string>
+    <string name="IMAGE">IMAGE</string>
+    <string name="TIME_STAMP">TIME_STAMP</string>
+    <string name="DESCRIPTION">DESCRIPTION</string>
+    <!-- Content Information Loader template -->
+</resources>
